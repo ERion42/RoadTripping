@@ -19,9 +19,6 @@ function NavBar() {
               <li className="nav-item">
                 <a className="nav-link" href="#">Link</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link disabled">Disabled</a>
-              </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                 <ul className="dropdown-menu" aria-labelledby="dropdown04">
@@ -32,7 +29,7 @@ function NavBar() {
               </li>
             </ul>
             <form>
-              <input className="form-control" type="text" placeholder="Search" aria-label="Search" />
+              <a href="#" className="nav-link disabled">Login Feature Coming Soon</a>
             </form>
           </div>
         </div>

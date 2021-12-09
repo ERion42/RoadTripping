@@ -1,7 +1,10 @@
 import React from 'react';
+import LandingPage from '../pages/landingPage/index';
 
 export default function SiteContainer() {
     return (
-        <h1>Hello World</h1>
+        <div className="container">
+            <LandingPage />
+        </div>
     )
 }
